@@ -1,0 +1,58 @@
+#room_chat_container{
+    height: 80vh;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 20px;
+}
+#chat-message-input{
+    max-width:  800px;
+    margin-right: 10px;
+}
+#room_log_out_button{
+    margin: 10px;
+}
+#room_botton_and_text_input{
+    margin-top: 10px;
+}
+#room_back_icon{
+    margin: 10px;
+    color: #0d6efd;
+}
+body{
+    background-color: whitesmoke;
+}
+#Room_Manage_Members_Button{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#index_create_room{
+    max-width: 300px;
+}
+/* https://webkit.org/blog/13096/css-has-pseudo-class/ */
+
+div:has(#index_create_room){
+    margin-top: 30px;
+}
+#index_rooms_icons{
+    margin: 10px;
+}
+#index_rooms_icons>div{
+    margin: 10px;
+}
+.room_bin_icon:hover{
+    color: red;
+    cursor: pointer;
+}
+#login_section{
+    max-width: 500px;
+}
+#login_section * {
+    margin-top: 5px;
+}
+#register_section{
+    max-width: 500px;
+}
+/* https://www.w3schools.com/cssref/css_selectors.php */
+#register_section * {
+    margin-top: 5px;
+}
